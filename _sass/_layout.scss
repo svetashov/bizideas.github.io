@@ -252,12 +252,11 @@
 *  Main page on index (главная страница)
 */
 .main-page-start {
-    width: auto;
+    width: 100%;
     display: block;
 }
 .main-image {
-    width: auto;
-    height: 100%;
+    width: 100%;
     display: block;
     filter: blur(6px);
     -webkit-filter: blur(6px);
@@ -270,8 +269,7 @@
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     filter: url('/images/blur.svg');
-    width: auto;
-    height: 100%;
+
      }
 }
 
