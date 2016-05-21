@@ -254,22 +254,7 @@
 .main-page-start {
     width: 100%;
     display: block;
+    background-image: url('/images/main-page.png');
 }
-.main-image {
-    width: 100%;
-    display: block;
-    filter: blur(6px);
-    -webkit-filter: blur(6px);
-    -moz-filter: blur(6px);
-    filter: url('/images/blur.svg');
-}
- @media (max-device-width: 1000px) {
-     .main-image{
-        filter: blur(2px);
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    filter: url('/images/blur.svg');
 
-     }
-}
 
