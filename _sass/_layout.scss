@@ -261,12 +261,14 @@
     filter: blur(6px);
     -webkit-filter: blur(6px);
     -moz-filter: blur(6px);
-    filter: url('/images/blur.svg')
+    filter: url('/images/blur.svg');
 }
-.main-image @media handheld {
+ @media handheld {
+     .main-image{
         filter: blur(2px);
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
-    filter: url('/images/blur.svg')
+    filter: url('/images/blur.svg');
+     }
 }
 
