@@ -263,7 +263,7 @@
     -moz-filter: blur(6px);
     filter: url('/images/blur.svg');
 }
- @media handheld {
+ @media (max-device-width: 1000px) {
      .main-image{
         filter: blur(2px);
     -webkit-filter: blur(2px);
