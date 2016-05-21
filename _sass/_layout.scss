@@ -269,8 +269,8 @@
     margin-top: 30vh;
     position: absolute;
     text-transform: uppercase;
-    margin-left: -webkit-calc(50% - 0.5*this.width);
-    margin-left: calc(50% - 0.5*this.width);
+    margin-left: -webkit-calc(50vh - 541px);
+    margin-left: calc(50vh - 541px);
     margin-right: auto;
     @include media-query($on-laptop) {
     font-size: 18pt;
