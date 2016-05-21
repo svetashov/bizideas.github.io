@@ -171,6 +171,18 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
+.index-wrapper {
+    max-width: auto;
+    max-width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: auto;
+        max-width: auto;
+    }
+}
 
 
 
