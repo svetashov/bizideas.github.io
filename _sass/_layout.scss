@@ -259,6 +259,13 @@
     height: -moz-calc(100vh - 56px);
     height: -webkit-calc(100vh - 56px);
     margin-bottom: 40px;
+    p {
+        font-size: 24pt;
+        @include media-query($on-laptop) {
+            font-size: 18pt;
+        }
+    }
 }
+
 
 
