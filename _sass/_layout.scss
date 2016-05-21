@@ -266,10 +266,13 @@
     text-align: center;
     color: rgba(100%, 100%, 100%, 1);
     align: center;
+    margin-top: 30vh;
+    position: absolute;
     text-transform: uppercase;
     @include media-query($on-laptop) {
     font-size: 18pt;
     margin-top: 30vh;
+}
 }
 
 
