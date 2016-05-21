@@ -271,10 +271,14 @@
     text-transform: uppercase;
     margin-left: -webkit-calc(50% - 270px);
     margin-left: calc(50% - 270px);
+    margin-left: -moz-calc(50% - 270px);
     margin-right: auto;
     @include media-query($on-laptop) {
     font-size: 18pt;
     margin-top: 30vh;
+    margin-left: -webkit-calc(50% - 202px);
+    margin-left: calc(50% - 270px);
+    margin-left: -moz-calc(50% - 202px);
 }
 }
 
