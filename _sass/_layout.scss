@@ -211,7 +211,11 @@
         font-size: 36px;
     }
 }
-
+.post-image-on-index {
+    width: 50%;
+    height: 50%;
+    border-radius: 3px;
+}
 .post-content {
     margin-bottom: $spacing-unit;
 
