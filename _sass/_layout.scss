@@ -261,6 +261,8 @@
     margin-bottom: 40px;
     p {
         font-size: 24pt;
+        text-align: center;
+        align: center;
         @include media-query($on-laptop) {
             font-size: 18pt;
         }
