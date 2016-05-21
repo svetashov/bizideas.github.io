@@ -269,6 +269,7 @@
     text-transform: uppercase;
     @include media-query($on-laptop) {
     font-size: 18pt;
+    margin-top: 30vh;
 }
 
 
