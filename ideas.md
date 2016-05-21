@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: page
+permalink: /ideas/
+title: Идеи
 ---
 
 <div class="home">
