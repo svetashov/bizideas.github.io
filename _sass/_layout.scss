@@ -270,6 +270,7 @@
     position: absolute;
     text-transform: uppercase;
     margin-left: -webkit-calc(50% - 0.5*width);
+    margin-left: calc(50% - 0.5*width);
     margin-right: auto;
     @include media-query($on-laptop) {
     font-size: 18pt;
