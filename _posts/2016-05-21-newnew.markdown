@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Second post"
+date:   2016-05-21 21:52:36 +0300
+categories: jekyll update
+postimage: https://lh3.googleusercontent.com/K5j2LOd16wC9ZOOi2MlR145MqzzHtTmbXq2wHCFrJsYO7Duc5iFxEsurIHGCphknWLpeFJ3IeQhMOafeXWCnzptHCw7_OnflBi0MVFQvmmCdm3SynP9SQF4ZRgvhcrCIimCDfTR40UusDEMO84j_q4bwnKuTZSyY-ZORXK3NNfKz6Lxt4OncY78cLNpYtabBTXPoQRqLyZGHjpfiIZePHqmI498hVp-PGlROkgm7tYJmsXIQ0ZRsFanF7ZWNEQxCKeM_ML9I5vsnoY4Pbx3o7LJwm97eyutEKGqzLb6i2WSKUkFnEagCKO_QhiZ7u96meiut1KeXMd26-AAFZm_uvto2a3wGL-e7yA9FUeulrTdplwwxRXr_O4auDSdzs6gZSpLNHAQvRuI2G6T8-b1n3xRr4PZcQwVFNRJRDuHk8XCQVE2EEnd4YNRseeqmuL9YHZvW1iQPVs-pXuv3Lh-F9UVKf-rQgBqTVhf5NOba43W9hSlNvIujenIcXZbMlHDbFnrkmZ9VJ7BxYiKRbZuTSJLO0wSTmgmHavKQXQBsv1bkX_0QiXflpsML_GyRppPq630FBpUfayNOWY8GhUz1HjLwLITHf00=w1470-h979-no
+---
+
+
+111FFF dDDS11
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
