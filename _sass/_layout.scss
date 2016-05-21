@@ -212,8 +212,8 @@
     }
 }
 .post-image-on-index {
-    width: 50%;
-    height: 50%;
+    max-width: 50%;
+    max-height: 50%;
     border-radius: 3px;
 }
 .post-content {
