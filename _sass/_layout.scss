@@ -261,6 +261,7 @@
     margin-bottom: 40px;
     margin-top: 0px;
 }
+
 .main-page-start-text {
     font-size: 40pt;
     font-family: Myriad Set Pro Text;
@@ -274,29 +275,37 @@
     margin-left: calc(50% - 320px);
     margin-left: -moz-calc(50% - 320px);
     margin-right: auto;
+}
 
-    @include media-query (max-width: 800px;)  and (min-width: 600px;){
+@media (max-width: 800px;)  and (min-width: 600px;) {
+    .main-page-start-text {
         font-size: 30pt;
         margin-left: -webkit-calc(50% - 300px);
         margin-left: calc(50% - 300px);
         margin-left: -moz-calc(50% - 300px);
         max-width: 600px;
     }
-        @include media-query (max-width: 600px;) and (min-width: 400px;) {
+}
+
+@media (max-width: 600px;)  and (min-width: 400px;) {
+    .main-page-start-text {
         font-size: 30pt;
         margin-left: -webkit-calc(50% - 200px);
         margin-left: calc(50% - 200px);
         margin-left: -moz-calc(50% - 200px);
         max-width: 400px;
     }
-        @include media-query (max-width: 400px;) {
+}
+
+@media (max-width: 400px;) {
+    .main-page-start-text {
         font-size: 30pt;
         margin-left: -webkit-calc(50% - 150px);
         margin-left: calc(50% - 150px);
         margin-left: -moz-calc(50% - 150px);
         max-width: 300px;
     }
-    
 }
+
 
 
