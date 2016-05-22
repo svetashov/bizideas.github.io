@@ -282,12 +282,26 @@
     margin-left: -moz-calc(50% - 100px);
     max-width: 200px;
 }
-    @include media-query (min-width: 600px;) and (max-width: 800px;) {
+    @include media-query (max-width: 800px;) {
+        font-size: 30pt;
+        margin-left: -webkit-calc(50% - 300px);
+        margin-left: calc(50% - 300px);
+        margin-left: -moz-calc(50% - 300px);
+        max-width: 600px;
+    }
+        @include media-query (max-width: 600px;) {
         font-size: 30pt;
         margin-left: -webkit-calc(50% - 200px);
         margin-left: calc(50% - 200px);
         margin-left: -moz-calc(50% - 200px);
         max-width: 400px;
+    }
+        @include media-query (max-width: 400px;) {
+        font-size: 30pt;
+        margin-left: -webkit-calc(50% - 150px);
+        margin-left: calc(50% - 150px);
+        margin-left: -moz-calc(50% - 150px);
+        max-width: 300px;
     }
     
 }
