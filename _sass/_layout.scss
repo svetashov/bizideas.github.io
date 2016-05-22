@@ -180,7 +180,9 @@
 
     > li {
         margin-bottom: $spacing-unit;
-        border: 1px solid rgba(0, 0, 0, 0.3);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 10px;
     }
 }
 
