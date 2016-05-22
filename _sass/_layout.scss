@@ -299,6 +299,16 @@
         max-width: 240px;
     }
 }
+.button-continue-a {
+    &:hover {
+        text-decoration: none;
+        color: white;
+    }
+}
+.button-continue {
+    border: 2px, solid, white;
+    color: white;
+}
 
 
 
