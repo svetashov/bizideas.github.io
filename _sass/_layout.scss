@@ -277,7 +277,7 @@
     margin-right: auto;
 }
 
-@media (max-width: 800px;)  and (min-width: 600px;) {
+@media screen and (max-width: 800px;) and (min-width: 600px;) {
     .main-page-start-text {
         font-size: 30pt;
         margin-left: -webkit-calc(50% - 300px);
@@ -287,7 +287,7 @@
     }
 }
 
-@media (max-width: 600px;)  and (min-width: 400px;) {
+@media screen and (max-width: 600px;) and (min-width: 400px;) {
     .main-page-start-text {
         font-size: 30pt;
         margin-left: -webkit-calc(50% - 200px);
