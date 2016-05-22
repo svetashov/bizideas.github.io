@@ -283,6 +283,14 @@
         max-width: 600px;
         
     }
+    @include media-query(540px) {
+        font-size: 24pt;
+        margin-left: -webkit-calc(50% - 150px);
+        margin-left: calc(50% - 150px);
+        margin-left: -moz-calc(50% - 150px);
+        max-width: 300px;
+        
+    }
 }
 
 
