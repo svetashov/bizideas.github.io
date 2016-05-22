@@ -275,37 +275,18 @@
     margin-left: calc(50% - 320px);
     margin-left: -moz-calc(50% - 320px);
     margin-right: auto;
-}
-
-@media screen and (max-width: 800px;) and (min-width: 600px;) {
-    .main-page-start-text {
+    @include media-query(max-width: 800px;) and media-query(min-width: 600px;) {
         font-size: 30pt;
-        margin-left: -webkit-calc(50% - 300px);
-        margin-left: calc(50% - 300px);
-        margin-left: -moz-calc(50% - 300px);
+        margin-left: -webkit-calc(50% - 280px);
+        margin-left: calc(50% - 280px);
+        margin-left: -moz-calc(50% - 280px);
         max-width: 600px;
+        
     }
 }
 
-@media screen and (max-width: 600px;) and (min-width: 400px;) {
-    .main-page-start-text {
-        font-size: 30pt;
-        margin-left: -webkit-calc(50% - 200px);
-        margin-left: calc(50% - 200px);
-        margin-left: -moz-calc(50% - 200px);
-        max-width: 400px;
-    }
-}
 
-@media (max-width: 400px;) {
-    .main-page-start-text {
-        font-size: 30pt;
-        margin-left: -webkit-calc(50% - 150px);
-        margin-left: calc(50% - 150px);
-        margin-left: -moz-calc(50% - 150px);
-        max-width: 300px;
-    }
-}
+
 
 
 
