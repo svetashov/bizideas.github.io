@@ -278,9 +278,9 @@
     text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
     @include media-query(800px) {
         font-size: 28pt;
-        margin-left: -webkit-calc(50% - 241px);
-        margin-left: calc(50% - 241px);
-        margin-left: -moz-calc(50% - 241px);
+        margin-left: -webkit-calc(50% - 225px);
+        margin-left: calc(50% - 225px);
+        margin-left: -moz-calc(50% - 225px);
         max-width: 600px;
         margin-top: 25vh;
         
