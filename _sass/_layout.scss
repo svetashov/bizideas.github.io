@@ -282,14 +282,14 @@
     margin-left: -moz-calc(50% - 100px);
     max-width: 200px;
 }
-    @include media-query (max-width: 800px;) {
+    @include media-query (max-width: 800px;)  and (min-width: 600px;){
         font-size: 30pt;
         margin-left: -webkit-calc(50% - 300px);
         margin-left: calc(50% - 300px);
         margin-left: -moz-calc(50% - 300px);
         max-width: 600px;
     }
-        @include media-query (max-width: 600px;) {
+        @include media-query (max-width: 600px;) and (min-width: 400px;) {
         font-size: 30pt;
         margin-left: -webkit-calc(50% - 200px);
         margin-left: calc(50% - 200px);
