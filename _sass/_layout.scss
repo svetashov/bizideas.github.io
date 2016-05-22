@@ -284,12 +284,18 @@
         
     }
     @include media-query(540px) {
-        font-size: 24pt;
+        font-size: 26pt;
         margin-left: -webkit-calc(50% - 150px);
         margin-left: calc(50% - 150px);
         margin-left: -moz-calc(50% - 150px);
         max-width: 300px;
-        
+    }
+    @include media-query(320px) {
+        font-size: 24pt;
+        margin-left: -webkit-calc(50% - 120px);
+        margin-left: calc(50% - 120px);
+        margin-left: -moz-calc(50% - 120px);
+        max-width: 240px;
     }
 }
 
