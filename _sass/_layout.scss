@@ -263,7 +263,7 @@
 }
 
 .main-page-start-text {
-    font-size: 40pt;
+    font-size: 38pt;
     font-family: Myriad Set Pro Text;
     text-align: center;
     color: rgba(100%, 100%, 100%, 1);
@@ -276,7 +276,7 @@
     margin-left: -moz-calc(50% - 320px);
     margin-right: auto;
     @include media-query(800px) {
-        font-size: 30pt;
+        font-size: 28pt;
         margin-left: -webkit-calc(50% - 241px);
         margin-left: calc(50% - 241px);
         margin-left: -moz-calc(50% - 241px);
@@ -284,14 +284,14 @@
         
     }
     @include media-query(540px) {
-        font-size: 26pt;
+        font-size: 24pt;
         margin-left: -webkit-calc(50% - 150px);
         margin-left: calc(50% - 150px);
         margin-left: -moz-calc(50% - 150px);
         max-width: 300px;
     }
     @include media-query(320px) {
-        font-size: 24pt;
+        font-size: 22pt;
         margin-left: -webkit-calc(50% - 120px);
         margin-left: calc(50% - 120px);
         margin-left: -moz-calc(50% - 120px);
