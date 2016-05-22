@@ -277,9 +277,9 @@
     margin-right: auto;
     @include media-query(800px) {
         font-size: 30pt;
-        margin-left: -webkit-calc(50% - 280px);
-        margin-left: calc(50% - 280px);
-        margin-left: -moz-calc(50% - 280px);
+        margin-left: -webkit-calc(50% - 241px);
+        margin-left: calc(50% - 241px);
+        margin-left: -moz-calc(50% - 241px);
         max-width: 600px;
         
     }
