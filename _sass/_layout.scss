@@ -314,6 +314,7 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15px;
     @include media-query(600px) {
         border: 3px solid white;
     }
