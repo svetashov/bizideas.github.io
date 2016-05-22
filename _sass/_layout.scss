@@ -262,7 +262,7 @@
     margin-top: 0px;
 }
 .main-page-start-text {
-    font-size: 24pt;
+    font-size: 30pt;
     font-family: Myriad Set Pro Text;
     text-align: center;
     color: rgba(100%, 100%, 100%, 1);
@@ -275,7 +275,7 @@
     margin-left: -moz-calc(50% - 270px);
     margin-right: auto;
     @include media-query($on-laptop) {
-    font-size: 18pt;
+    font-size: 24pt;
     margin-top: 30vh;
     margin-left: -webkit-calc(50% - 100px);
     margin-left: calc(50% - 100px);
