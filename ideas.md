@@ -18,6 +18,7 @@ title: Идеи
         </h2>
           <a href="{{ post.url | prepend: site.baseurl }}">
           <img src="{{ post.postimage }}" class="post-image-on-index">
+          <p class="post-description">{{ post.description }}</p>
           </a>
       </li>
     {% endfor %}
