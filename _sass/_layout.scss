@@ -301,6 +301,11 @@
         max-width: 240px;
     }
 }
+@media handheld and (orientation: landscape) {
+   .main-page-start-text {
+        margin-top: 10vh; 
+   } 
+}
 .button-continue-a {
     &:hover {
         text-decoration: none;
