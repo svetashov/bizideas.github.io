@@ -282,6 +282,7 @@
         margin-left: calc(50% - 241px);
         margin-left: -moz-calc(50% - 241px);
         max-width: 600px;
+        margin-top: 25vh;
         
     }
     @include media-query(540px) {
