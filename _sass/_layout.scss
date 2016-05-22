@@ -270,9 +270,9 @@
     margin-top: 30vh;
     position: absolute;
     text-transform: none;
-    margin-left: -webkit-calc(50% - 270px);
-    margin-left: calc(50% - 270px);
-    margin-left: -moz-calc(50% - 270px);
+    margin-left: -webkit-calc(50% - 320px);
+    margin-left: calc(50% - 320px);
+    margin-left: -moz-calc(50% - 320px);
     margin-right: auto;
     @include media-query($on-laptop) {
     font-size: 30pt;
