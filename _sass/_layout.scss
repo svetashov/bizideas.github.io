@@ -259,9 +259,9 @@
     }
 }
 .back-button {
-    margin-bottom: calc($spacing-unit - 10px);
-    margin-bottom: -webkit-calc($spacing-unit - 10px);
-    margin-bottom: -moz-calc($spacing-unit - 10px);
+    margin-bottom: calc(#{$spacing-unit} - 10px);
+    margin-bottom: -webkit-calc(#{$spacing-unit} - 10px);
+    margin-bottom: -moz-calc(#{$spacing-unit} - 10px);
     font-size: 16pt;
     color: $brand-color;
     display: block;
