@@ -381,9 +381,14 @@
     
     img {
         @include media-query(1000px) {
-            width: 70%;
-            margin-left: 15%;
-            margin-right: 15%;
+            width: 60%;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        @include media-query(600px) {
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
         }
     }
 }
