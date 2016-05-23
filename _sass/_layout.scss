@@ -273,7 +273,8 @@
 .main-page-start {
     width: 100%;
     display: block;
-    background-image: url('/images/main-page.png');
+    background-image: url('/images/main-page.png')
+    repeat-x –80% 0;
     height: calc(100vh - 56px);
     height: -moz-calc(100vh - 56px);
     height: -webkit-calc(100vh - 56px);
