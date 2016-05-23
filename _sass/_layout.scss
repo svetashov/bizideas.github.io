@@ -373,10 +373,16 @@
     width: -webkit-calc(33% - (30px / 2));
     width: calc(33% - (30px / 2));
     width: -moz-calc(33% - (30px / 2));
-    @include media-query(800px) {
+    @include media-query(1000px) {
         width: -webkit-calc(100% - (30px / 2));
         width: calc(100% - (30px / 2));
         width: -moz-calc(100% - (30px / 2));
+    }
+    
+    img {
+        @include media-query(1000px) {
+            width: 70%;
+        }
     }
 }
 
