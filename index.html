@@ -2,6 +2,21 @@
 layout: index-page
 ---
 
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("a.ancLinks").click(function () { 
+      elementClick = $(this).attr("href");
+      destination = $(elementClick).offset().top;
+      if($.browser.safari){
+        $('body').animate( { scrollTop: destination }, 1100 );
+      }else{
+        $('html').animate( { scrollTop: destination }, 1100 );
+      }
+      return false;
+    });
+  });
+</script>
+
   
   <div class="main-page-start">
     <div class="main-page-start-text">
@@ -18,9 +33,6 @@ layout: index-page
     <
   </div>
   
-  /*
-  *  All scripts
-  */
-  
+
+
   <script type="text/javascript" src="/js/jquery-1.3.2.js"></script>
-  <script type="text/javascript" src="/js/ancLinks"></script>
