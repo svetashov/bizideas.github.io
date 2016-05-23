@@ -324,7 +324,7 @@
 .button-continue-a {
     &:hover {
         text-decoration: none;
-        color: white;
+        color: #cccccc;
     }
     text-decoration: none;
 }
@@ -339,6 +339,10 @@
     margin-top: 30px;
     @include media-query(600px) {
         border: 2px solid white;
+    }
+    &:hover {
+        border-color: #cccccc;
+        color: #cccccc;
     }
 }
 
