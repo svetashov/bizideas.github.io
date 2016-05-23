@@ -8,12 +8,13 @@ layout: index-page
     <div class="main-page-start-text">
     <p>Хотите сделать свой бизнес?</p>
     <p>У нас есть идеи</p>
-    <a href="#ancLink" class="ancLinks">
+    <a href="#anchor" class="ancLinks">
     <p class="button-continue">Узнать больше</p>
     </a>
     </div>
   </div>
   
+  <div id="anchor"></div>
   <div class="main-description">
     
   </div>
@@ -21,3 +22,20 @@ layout: index-page
 
 
 
+<script type="text/javascript">
+$(document).ready(function(){
+$("#menu").on("click","a", function (event) {
+//отменяем стандартную обработку нажатия по ссылке
+event.preventDefault();
+
+//забираем идентификатор бока с атрибута href
+var id = $(this).attr('href'),
+
+//узнаем высоту от начала страницы до блока на который ссылается якорь
+top = $(id).offset().top;
+
+//анимируем переход на расстояние - top за 1500 мс
+$('body,html').animate({scrollTop: top}, 1500);
+});
+});
+</script>
