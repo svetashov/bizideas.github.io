@@ -6,7 +6,7 @@ title: До 100 тыс. р.
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Бизнес с инвестициями до 100 тыс. р.</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
