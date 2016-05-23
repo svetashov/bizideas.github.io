@@ -382,8 +382,8 @@
     img {
         @include media-query(1000px) {
             width: 70%;
-            margin-left: auto;
-            margin-right: auto;
+            margin-left: 15%;
+            margin-right: 15%;
         }
     }
 }
