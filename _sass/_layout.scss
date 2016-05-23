@@ -349,7 +349,13 @@
 .main-description {
     font-size: 28pt;
     text-align: center;
-
+    
+    @include media-query(800px) {
+        font-size: 20pt;
+    }
+    @include media-query(600px) {
+        font-size: 16pt;
+    }
 }
 
 
