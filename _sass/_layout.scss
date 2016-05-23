@@ -372,6 +372,11 @@
     margin-bottom: $spacing-unit;
     padding-left: 15px;
     
+    a {
+       text-decoration: none;
+       color: #828282;
+    }
+    
 }
 .types-col-1 {
     width: -webkit-calc(33% - (30px / 2));
