@@ -368,8 +368,9 @@
 }
 .types-col {
     float: left;
-    margin-bottom: 15px;
+    margin-bottom: $spacing-unit;
     padding-left: 15px;
+    
 }
 .types-col-1 {
     width: -webkit-calc(33% - (30px / 2));
