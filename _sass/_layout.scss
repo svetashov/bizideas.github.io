@@ -378,10 +378,10 @@
     
 }
 .types-col-1 {
-    width: -webkit-calc(33% - (30px / 2));
-    width: calc(33% - (30px / 2));
-    width: -moz-calc(33% - (30px / 2));
-    font-size: 22pt;
+    width: -webkit-calc(33% - 30px);
+    width: calc(33% - 30px);
+    width: -moz-calc(33% - 30px);
+    font-size: 24pt;
     text-align: center;
     @include media-query(1000px) {
         width: -webkit-calc(100% - (30px / 2));
@@ -395,7 +395,7 @@
     img {
         margin-bottom: 15px;
         @include media-query(1000px) {
-            width: 60%;
+            width: 55%;
             margin-left: 20%;
             margin-right: 20%;
         }
