@@ -411,6 +411,12 @@
         }
     }
 }
+.about-text {
+    font-size: 16pt;
+    @include media-query(600px) {
+        font-size: 14pt;
+    }
+}
 
 
 
