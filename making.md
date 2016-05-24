@@ -8,7 +8,7 @@ title: Производство
 
   <ul class="post-list">
     {% for post in site.posts %}
-      {% if post.making %}
+      {% if post.type == "making" %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
