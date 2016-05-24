@@ -9,7 +9,7 @@ title: Услуги
 
   <ul class="post-list">
     {% for post in site.posts %}
-      {% if post.service %}
+      {% if post.type == "service" %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
