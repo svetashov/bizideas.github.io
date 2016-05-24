@@ -387,7 +387,7 @@
     width: -moz-calc(33% - 15px);
     font-size: 24pt;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 14px;
     @include media-query(1000px) {
         width: -webkit-calc(100% - (30px / 2));
         width: calc(100% - (30px / 2));
