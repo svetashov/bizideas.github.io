@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /small-invest/
+permalink: /making/
 title: Производство
 ---
 
