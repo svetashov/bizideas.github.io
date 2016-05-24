@@ -25,10 +25,9 @@ header: true
 [Услуги][service]
 
 
-[small-invest]: /small-invest.md
-[middle-invest]: /middle-invest.md
-[huge-invest]: /huge-invest.md
-[trading]: /trading.md
-[making]: /making.md
-[service]: /service.md
-
+[small-invest]: /small-invest
+[middle-invest]: /middle-invest
+[huge-invest]: /huge-invest
+[trading]: /trading
+[making]: /making
+[service]: /service
