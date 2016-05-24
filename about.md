@@ -12,13 +12,13 @@ header: true
 <p>Идеи разделены по темам:</p>
 </div>
 
-[С инвестициями до 100 тыс. р.][small-invest]&br
-[С инвестициями от 100 до 200 тыс. р.][middle-invest]
-[С инвестициями от 200 тыс. р.][huge-invest]
+<p>[С инвестициями до 100 тыс. р.][small-invest]</p>
+<p>[С инвестициями от 100 до 200 тыс. р.][middle-invest]</p>
+<p>[С инвестициями от 200 тыс. р.][huge-invest]</p>
  
-[Торговля][trading]
-[Производство][making]
-[Услуги][service]
+<p>[Торговля][trading]</p>
+<p>[Производство][making]</p>
+<p>[Услуги][service]</p>
 
 [small-invest]: /small-invest.md
 [middle-invest]: /middle-invest.md
