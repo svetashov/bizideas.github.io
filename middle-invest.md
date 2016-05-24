@@ -10,7 +10,7 @@ title: От 100 до 200 тыс. р.
 
   <ul class="post-list">
     {% for post in site.posts %}
-      {% if post.middle-invest %}
+      {% if post.invest == "middle" %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
