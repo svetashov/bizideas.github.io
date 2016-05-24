@@ -8,6 +8,21 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 }
+#toTop {
+width: 100px;
+border: 1px solid #ccc;
+background: #f7f7f7;
+text-align: center;
+padding: 5px;
+position: fixed;
+top: 10px;
+left: 10px;
+cursor: pointer;
+display: none;
+color: #333;
+font-family: Myriad Set Pro Text;
+font-size: 11px;
+}
 
 .site-title {
     font-size: 26px;
@@ -423,6 +438,7 @@
         font-size: 14pt;
     }
 }
+
 
 
 
