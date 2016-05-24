@@ -10,7 +10,7 @@ title: До 100 тыс. р.
 
   <ul class="post-list">
     {% for post in site.posts %}
-      {% if post.invest == small %}
+      {% if post.invest == "small" %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
