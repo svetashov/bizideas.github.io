@@ -9,7 +9,7 @@ title: Торговля
 
   <ul class="post-list">
     {% for post in site.posts %}
-      {% if post.trading %}
+      {% if post.type == "trading" %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
