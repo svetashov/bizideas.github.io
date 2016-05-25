@@ -21,6 +21,11 @@ font-family: Myriad Set Pro Text;
 font-size: 11px;
 background-image: url("/images/up.png");
 display: none;
+opacity: 0.4;
+
+&:hover {
+    opacity: 0.6;
+}
 }
 
 .site-title {
