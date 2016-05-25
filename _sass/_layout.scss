@@ -429,6 +429,8 @@ display: none;
     }
     &:hover {
         background-color: rgba(204, 204, 204, 0.5);
+        padding-left: -10%;
+        padding-right: -10%;
     }
 }
 .about-text {
