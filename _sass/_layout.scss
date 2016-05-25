@@ -9,11 +9,9 @@
     position: relative;
 }
 #toTop {
-width: 30px;
-height: 100px;
-border: 1px solid #ccc;
+width: 32px;
+height: 32px;
 text-align: center;
-padding: 5px;
 position: fixed;
 top: 0px;
 left: 10px;
@@ -22,6 +20,7 @@ display: none;
 color: #333;
 font-family: Myriad Set Pro Text;
 font-size: 11px;
+background-image: url("/image/up.png")
 }
 
 .site-title {
