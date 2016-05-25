@@ -299,6 +299,11 @@ opacity: 0.25;
     margin-bottom: 80px;
     margin-top: 0px;
 }
+@media tv {
+    .main-page-start {
+        height: 800px;
+    }
+}
 
 .main-page-start-text {
     font-size: 38pt;
