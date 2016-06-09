@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 header: true
 ---
-
+<a href="javascript:history.back();" class="back-button">Назад</a>
 <img src="/images/business.jpg">
 <h2>На {{ site.title }} вы можете найти идеи для создания своего бизнеса. Отличная подборка реальных бизнес идей с минимальными вложениями для тех, кто собирается открыть свое дело.</h2>
 <div class="about-text">
