@@ -3,7 +3,7 @@ layout: post
 title:  Кофе на вынос
 date:   2016-06-24 13:36:36 +0300
 categories: кофе
-postimage: https://pp.vk.me/c627429/v627429330/c74c/CQfCGXD3Ql8.jpg
+postimage: https://cs7057.vk.me/c540103/v540103632/28dea/jpiTS_4eExs.jpg
 description: Сегодня нет человека, который бы хоть иногда не пользовался услугой «кофе to go». Всему виной наш стремительный ритм жизни, когда часто нет времени для того...
 invest: small
 type: service making trading
