@@ -19,7 +19,7 @@ title: От 100 до 200 тыс. р.
         </h2>
           <a href="{{ post.url | prepend: site.baseurl }}">
           <img src="{{ post.postimage }}" class="post-image-on-index">
-          <p class="post-description">{{ post.description }}</p>
+          <p class="post-description">{{ post.description | truncate: 200 }}</p>
           </a>
       </li>
       {% endif %}
