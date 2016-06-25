@@ -3,7 +3,7 @@ layout: post
 title:  Таблички с номерами домов
 date:   2016-06-25 16::00 +0300
 categories: стекло 
-postimage: http://media.professionali.ru/processor/topics/original/2009/05/31/1761119-original.jpg
+postimage: https://pp.vk.me/c543105/v543105014/b0e9/R50wPe2B7Xc.jpg
 description: Идея подразумевает под собой предоставление услуг по декоративной обработке стекла с помощью специальной пасты. При небольших начальных вложениях вы можете ежемесячно зарабатывать неплохие деньги!
 invest: small
 type: making
