@@ -17,7 +17,7 @@ title: Производство
         </h2>
           <a href="{{ post.url | prepend: site.baseurl }}">
           <img src="{{ post.postimage }}" class="post-image-on-index">
-          <p class="post-description">{{ post.description | truncate: 200 }}</p>
+          <p class="post-description">{{ post.description | truncate: 160 }}</p>
           </a>
       </li>
       {% endif %}
