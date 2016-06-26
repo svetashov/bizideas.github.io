@@ -7,7 +7,7 @@ header: true
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Документы, необходимые для создания бизнеса</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
